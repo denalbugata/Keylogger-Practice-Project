@@ -59,7 +59,7 @@ with keyboard.Listener(on_press=on_press) as listener:
     listener.join()
 ```    
 
-<b> The final result should look like this</b>
+<b> The final result should look like this:</b>
 
 ```python
 import pynput
