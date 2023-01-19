@@ -9,7 +9,7 @@ This script is a simple keylogger that captures every key press, and records the
 
 - <b>Windows 11</b>
 
-<h2>Program Walkthough Code:</h2>
+<h2>Program Walkthough:</h2>
 
 <b>This first block imports the necessary modules from the pynput library. The pynput library allows for control and monitoring of keyboard and mouse inputs.</b>
 
