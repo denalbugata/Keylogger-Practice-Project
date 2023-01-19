@@ -11,7 +11,7 @@ This script uses the pynput library to listen for keyboard events. The on_press 
 
 <h2>Environments Used </h2>
 
-- <b>Windows 11</b> (21H2)
+- <b>Windows 11</b>
 
 <h2>Program Code:</h2>
 
