@@ -1,7 +1,7 @@
 <h1>Keylogger Practice Project</h1>
 
 <h2>Description</h2>
-This script uses the pynput library to listen for keyboard events. The on_press function is called whenever a key is pressed, and it appends the pressed key to a global log list. The key is then written to a file called log.txt.
+This script is a simple keylogger that captures every key press, and records them in a text file called "log.txt". It imports the necessary modules from the pynput library, which allows it to listen to keyboard inputs. The script defines a function on_press which is called every time a key is pressed. In the function, it first tries to get the character of the key pressed, if it fails it checks if the key pressed is a space, if it is a space it assigns current_key as a space otherwise it assigns current_key as " + str(key) + " ". Then it appends the current key to a global variable called log. It then opens the "log.txt" file, which is created if it does not exist, and writes the key presses to the file. The script starts the keylogger by initializing an empty log list, and creates a keyboard listener that calls the on_press function whenever a key is pressed. The listener is joined so that the script waits for key presses and continues to run until it is interrupted.
 <br />
 
 
