@@ -1,4 +1,4 @@
-<h1>JKeylogger Practice Project</h1>
+<h1>Keylogger Practice Project</h1>
 
 <h2>Description</h2>
 This script uses the pynput library to listen for keyboard events. The on_press function is called whenever a key is pressed, and it appends the pressed key to a global log list. The key is then written to a file called log.txt.
